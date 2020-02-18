@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +9,23 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Philip Gilbert Rosales Gilbert</h1>
-    <h1>Philip Gilbert Rosales Rosales</h1>
+    <form action="data.php" method="POST">
+        <input type="radio" value="yes" name="derp">
+        <input type="radio" value="no" name="derp">
+        <input type="submit" value="SUBMIT"></input>
+    </form>
 </body>
 </html>
+
+ 
+// namespace Models;
+// use Models\Admin;
+// use Models\User;
+
+// spl_autoload_register(function($class){
+//     echo __DIR__ . '\\' . $class . '.php';
+//     require_once(__DIR__ . '\\' . $class . '.php');
+// });
+
+// new Admin;
+// new User;
